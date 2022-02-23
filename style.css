@@ -188,13 +188,13 @@ main  p{
 }
 .central_image{text-align: center;}
 
-#fsc_button{
+.fsc_button{
     background-color: #5865f2;
     color: #fff;
     display: inline-block;
     margin-top: 40px;
 }
-#fsc_button:hover{background-color: #7289da; transition-duration: 0.5s;}
+.fsc_button:hover{background-color: #7289da; transition-duration: 0.5s;}
 
 /*
         SECTIONS
@@ -212,3 +212,47 @@ main  p{
 #third_section_description_side{float: right;}
 
 #fourth_section{background-color: #F6F6F6;}
+
+/*
+                    FOOTER
+*/
+
+footer{
+    background-color: black;
+    color: #fff;
+    height: 665px;
+}
+.float_left{
+    position: relative;
+    float: left;
+}
+.float_right{
+    position: relative;
+    float: right;
+}
+#left_side_footer{
+    width: 280px;
+}
+#left_side_footer > h3{
+    color: #5865f2;
+    font-size: 32px;
+}
+
+#country, #social{
+    margin-top: 24px;
+}
+#country > img{
+    width: 24px;
+}
+#country > div{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 5px;
+}
+
+#social  a{
+    color: #fff;
+    font-size: 24px;
+    margin-right: 20px;
+}
