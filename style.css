@@ -167,6 +167,10 @@ body{font-family: 'Whitney',Helvetica Neue,Helvetica,Arial,sans-serif;}
 #first_section_img{ float: left;}
 #first_section_description_side{float: right;}
 
-#second_section{background-color: gray;}
+#second_section{background-color: #F6F6F6;}
 #second_section_img{ float: right;}
 #second_section_description_side{float: left;}
+
+#third_section{background-color: #fff;}
+#third_section_img{ float: left;}
+#third_section_description_side{float: right;}
