@@ -184,6 +184,10 @@ main  p{
     font-size: 40px;
 }
 .fsc_text > h3{
+    background-image: url(./img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: center;
     font-size: 32px;
 }
 .central_image{text-align: center;}
@@ -314,4 +318,28 @@ footer{
 }
 #button_footer:hover{
     background-color: #7289da;
+}
+
+
+
+
+
+.custom-shape-divider-bottom-1645635098 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1645635098 svg {
+    position: relative;
+    display: block;
+    width: calc(124% + 1.3px);
+    height: 82px;
+}
+
+.custom-shape-divider-bottom-1645635098 .shape-fill {
+    fill: #F6F6F6;
 }
