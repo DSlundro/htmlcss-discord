@@ -1,0 +1,135 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{font-family: 'Whitney',Helvetica Neue,Helvetica,Arial,sans-serif;}
+/*
+                    HEADER
+*/
+
+#site_header{
+    background-image: url(./img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 630px;
+}
+
+/*
+                    NAVBAR
+*/
+#navbar{
+    position: relative;
+    margin: 0 auto;
+    width: 1260px;
+    height: 80px;
+    text-align: center;
+    padding: 30px 0px;
+}
+/*
+        LEFT NAVBAR
+*/
+#logo_container{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+/*
+        CENTER NAVBAR
+*/
+#navigation{
+    display: inline;
+    vertical-align: middle;
+}
+#navigation > a{
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+}
+#navigation > a:hover{
+    text-decoration: underline;
+}
+/*
+        RIGHT NAVBAR
+*/
+#login{
+    display: inline;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+#login > a{
+    background-color: #fff;
+    color: black;
+    font-size: 14px;
+    padding: 10px 18px;
+    border-radius: 40px;
+    text-decoration: none;
+}
+#login > a:hover, #header_bottons > a:hover{
+    box-shadow: 0px 2px 7px 0px black;
+}
+
+/*
+                HEADER CONTAINER
+*/
+#header_container{
+    width: 1260px;
+    height: 550px;
+    text-align: center;
+    margin: 0 auto;
+}
+#items_container{
+    color: #fff;
+    width: 780px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#items_container > h1{
+    font-size: 56px;
+}
+#items_container > p{
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/*
+        HEADER BOTTONS
+*/
+#header_bottons{
+    margin-top: 40px;
+}
+#header_bottons > a{
+    padding: 16px 32px;
+    font-size: 20px;
+}
+#download{
+    background-color: #fff;
+    color: black;
+    margin-right: 50px;
+}
+#open{
+    background-color: black;
+    color: #fff;
+}
+#header_bottons > a{
+    font-size: 20px;
+    padding: 17px 30px;
+    border-radius: 40px;
+    text-decoration: none;
+}
+#download:hover{
+    color: blue;
+}
+#open:hover{
+    background-color: rgb(36, 36, 36); 
+    transition-duration:  0.5s;
+}
+
+/*
+                    MAIN
+*/
